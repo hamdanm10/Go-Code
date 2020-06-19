@@ -28,14 +28,14 @@ body
     color: #ee6e73 !important;
 }
 
-.blue
-{
-    color: #2a7fff !important;
-}
-
 .gray
 {
     color: #484e54;
+}
+
+.active
+{
+    color: #2a7fff !important;
 }
 
 .rounded-circle
@@ -79,7 +79,7 @@ body
     font-weight: 900;
 }
 
-.beranda button
+.beranda a
 {
     border-radius: 25px;
     width: 200px;
@@ -342,6 +342,29 @@ body
     font-weight: 900;
 }
 
+/* Kontak */
+.kontak
+{
+    padding: 20px;
+    background-color: #f6f5fa;
+}
+
+.kontak .container
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.kontak h3
+{
+    font-weight: 900;
+}
+
+.kontak .row
+{
+    margin: 30px 0px;
+}
+
 /* Footer */
 footer
 {
@@ -353,5 +376,18 @@ footer .container
 {
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+/* Copyright */
+.copyright
+{
+    background-color: #2a7fff;
+    padding: 20px;
+    border-top: 1px solid #c3c3c3;
+}
+
+.copyright p
+{
+    margin-top: 5px;
 }
 
